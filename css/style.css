@@ -50,13 +50,13 @@ margin-top:27px;
 	margin: 0 auto;
 	padding: 0 15px;
 	max-height: 550px;
-	height: 550px;
+	/*height: 550px;*/
 	background: linear-gradient(to right, #D7CABD 50%, #DED2C6);
 }
 .section__protect .section__protect_box{
-	background-image: url(img/dog__protect.png);
-	display: block;
-	min-height: 550px;
+	/*background-image: url(img/dog__protect.png);*/
+	/*display: block;*/
+	/*min-height: 550px;*/
 }
 .section__protect p{
 margin-top: 100px;
