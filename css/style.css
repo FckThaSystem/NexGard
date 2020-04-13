@@ -1,0 +1,90 @@
+body{
+	font-family: 'Lato', sans-serif;
+	min-width: 1140px;
+	width:100%;
+	padding: 0px 15px;
+	background: #fff;
+	height: 100%;
+	margin: 0 auto;
+}
+/*!!!!!HEADER-STRAT!!!!!*/
+.section__header{
+	display: block;
+	background-color: #00469D;
+	height: 130px;
+	width:100%;
+	margin: 0 auto;
+}
+.section__header__content{
+
+}
+
+.section__header__logo_1{
+	max-width: 267px;
+margin-top:27px;
+
+}
+.section__header__button{
+width:360px;
+line-height: 75px;
+background-color:#00B7EF;
+border-radius:15px;
+margin-top:27px;
+}
+.section__header__button p{
+	display: flex;
+	font-size: 40px;
+	color:#fff;
+	justify-content: center;
+}
+.section__header__button p {
+	font-weight: lighter;
+}
+.col-4 a{
+	text-decoration: none;
+}
+/*HEADER-END*/
+
+.section__protect{
+	display: block;
+	margin: 0 auto;
+	max-width: 1140px;
+	width: 100%;
+	height: 550px;
+	padding: 0 15px;
+	background-image: url(img/dog__protect.png);
+	background-color: #fff;
+}
+.section__protect p{
+margin-top: 100px;
+color:#00469D;
+font-size: 50px;
+font-weight: lighter;
+}
+
+@media screen and (max-width: 960px){
+.section__header__logo_1{
+	width: 220px;
+	height: auto;
+}
+.section__header{
+	height: 125px;
+
+}
+.section__header__button{
+width:307px;
+line-height: 64px;
+}
+.section__header__button p{
+	font-size: 34px;
+}
+}
+@media screen and (max-width: 720px){
+
+}
+@media screen and (max-width: 540px){
+
+}
+@media screen and (max-width: 360px){
+
+}
