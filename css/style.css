@@ -15,6 +15,13 @@ body{
 	width:100%;
 	margin: 0 auto;
 }
+.container__nexgard{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .section__header__content{
 
 }
@@ -49,9 +56,8 @@ margin-top:27px;
 	display: block;
 	margin: 0 auto;
 	padding: 0 15px;
-<<<<<<< HEAD
 	max-height: 640px;
-	background: linear-gradient(to right, #D7CABD 50%, #DED2C6);
+	background: linear-gradient(to bottom, #E0D0C4, #E4D4C8, #E1CFC3, #DDCBBE);
 }
 .section__protect_box{
 	display: block;
@@ -59,13 +65,10 @@ margin-top:27px;
 =======
 	max-height: 550px;
 	/*height: 550px;*/
-	background: linear-gradient(to right, #D7CABD 50%, #DED2C6);
+	background: linear-gradient(to bottom, #E0D0C4, #E4D4C8, #E1CFC3, #DDCBBE);
 }
-.section__protect .section__protect_box{
-	/*background-image: url(img/dog__protect.png);*/
-	/*display: block;*/
-	/*min-height: 550px;*/
->>>>>>> 542b3fd19fc3e542e4a85989674ea01acafb76be
+.section__protect_box{
+
 }
 .section__protect p{
 margin-top: 100px;
