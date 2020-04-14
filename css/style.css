@@ -23,7 +23,7 @@ body{
 	max-width: 267px;
 margin-top:27px;
 
-}/*weiokgfweog*/
+}
 .section__header__button{
 width:360px;
 line-height: 75px;
@@ -54,6 +54,21 @@ margin-top:27px;
 	padding: 0 15px;
 	background-image: url(img/dog__protect.png);
 	background-repeat: repeat-x, no-repeat;
+	padding: 0 15px;
+	max-height: 640px;
+	background: linear-gradient(to right, #D7CABD 50%, #DED2C6);
+}
+.section__protect_box{
+	display: block;
+	min-height: 550px;
+	max-height: 550px;
+	/*height: 550px;*/
+	background: linear-gradient(to right, #D7CABD 50%, #DED2C6);
+}
+.section__protect .section__protect_box{
+	/*background-image: url(img/dog__protect.png);*/
+	/*display: block;*/
+	/*min-height: 550px;*/
 }
 .section__protect p{
 margin-top: 100px;
@@ -64,6 +79,10 @@ padding-bottom: 55px;
 }
 .section__protect__img{
 	margin-top:30px;
+}
+.img__protect__dog{
+	display: flex;
+	align-items: bottom;
 }
 
 @media screen and (max-width: 960px){
