@@ -93,12 +93,13 @@ font-weight: lighter;
 .section__recommend{
 margin-top: 30px;
 }
-.section__recommend img{
+.section__recommend_title img{
+	max-width: 64px;
 }
-.section__recommend_title{
+.section__recommend_title h2{
 text-align: center;
-color:#00B7EF;
-font-size: 40px;
+color: #00469D;
+font-size: 41px;
 font-weight: lighter;
 }
 .section__recommend_content__1{
@@ -145,6 +146,43 @@ text-align: center;
 	color: #9F9E9E;
 }
 /*SECTION-RECOMMEND-END*/
+
+/*SECTION-EFFECTIVITY*/
+.section__effectivity{
+margin-top:50px;
+}
+.section__effectivity__title h2{
+	text-align: center;
+	color: #00469D;
+	font-size: 41px;
+	font-weight: lighter;
+}
+.section__effectivity__content{
+	margin-top: 60px;
+}
+.section__effectivity__text{
+	text-align: center;
+}
+.section__effectivity__text_h3 h3{
+	font-size: 20px;
+	color: #00B7EF;
+	font-weight: 550;
+	text-align: center;
+}
+.section__effectivity__text_p p{
+font-size: 18px;
+line-height: 1.2;
+text-align: center;
+margin-top:15px;
+}
+.section__effectivity__text_1 p{
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
+	color: #9F9E9E;
+	margin-bottom: 5px;
+}
+/*SECTION-EFFECTIVITY-END*/
 
 @media screen and (max-width: 960px){
 .section__header__logo_1{
