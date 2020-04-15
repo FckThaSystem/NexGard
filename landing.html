@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Nexgard Spectra</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="wow-animation/animate.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -77,7 +77,7 @@
         <div class="container">
            <div class="section__recommend_title">
             <div class="row">
-                <div class="col-1 animated fadeInLeftBig">
+                <div class="col-1 wow fadeInLeftBig">
                     <img src="img/pill_recommendation.png" alt="pill_recommendation">
                 </div>
                 <div class="col-11">
@@ -87,13 +87,13 @@
            </div>
            <div class="section__recommend_content">
                 <div class="row">
-                     <div class="col-6 animated fadeInLeft">
+                     <div class="col-6 wow fadeInLeft">
                        <img src="img/recommend__pack.png" alt="">
                     </div>
            <div class="col-6">
                <div class="row">
                 <div class="col-6">
-                    <div class="section__recommend_content__1 animated fadeInRight">
+                    <div class="section__recommend_content__1 wow fadeInRight">
                         <img src="img/recommend_parasite_icon.png" alt="паразити">
                         <div class="section__recommend_content_text">
                             <p>Охоплює найширший<br/> спектр паразитів <br/>серед оральних форм</p>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="section__recommend_content__2 animated fadeInRight">
+                    <div class="section__recommend_content__2 wow fadeInRight">
                         <img src="img/recommend_dogs_icon.png" alt="">
                         <div class="section__recommend_content_text">
                             <p>Охоплює найширший<br/> спектр паразитів <br/>серед оральних форм</p>
@@ -109,7 +109,7 @@
                     </div>
                </div>
                 <div class="col-6">
-                    <div class="section__recommend_content__3 animated fadeInRight">
+                    <div class="section__recommend_content__3 wow fadeInRight">
                         <img src="img/recommend_calendar_icon.png" alt="">
                         <div class="section__recommend_content_text">
                             <p >Охоплює найширший<br/> спектр паразитів <br/>серед оральних форм</p>
@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="section__recommend_content__4 animated fadeInRight">
+                    <div class="section__recommend_content__4 wow fadeInRight">
                         <img src="img/recommend_70_millions.png" alt="">
                         <div class="section__recommend_content_text">
                             <p >Охоплює найширший<br/> спектр паразитів <br/>серед оральних форм</p>
@@ -129,8 +129,7 @@
             </div>
            <div class="section__recommend__table">
                <div class="row">
-                   <div class="col-1"></div>
-                   <div class="col-2">
+                   <div class="col-2 offset-1">
                     <img src="img/dog_2-3-5_icon.png" alt="Dog 2-3.5kg">
                     <div class="recommend__table__content">
                         <p>2-3,5 кг</p>
@@ -216,6 +215,47 @@
             </div>
         </div>
     </section>
+    <section class="section__title_never">
+        <div class="container">
+            <div class="section__title__never__h2">
+                <h2>ЗАХИСТ ВІД ПАРАЗИТІВ ВАЖЛИВІШИЙ, НІЖ БУДЬ-КОЛИ!</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section__media">
+        <div class="container">
+            <div class="section__media__content">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="img/dog_with_pill_media.png" alt="Собака NexGard">
+                    </div>
+                    <div class="col-6">
+                        <div class="section__media__content__box">
+                            <div class="section__media__content__title">
+                                <p>БЕЗКОМПРОМІСНИЙ ДУШЕВНИЙ СПОКІЙ</p>
+                            </div>
+                            <div class="section__media__content__text">
+                                <p>ТІЛЬКИ З ОДНІЄЮ СМАЧНОЮ ТАБЛЕТКОЮ ЗАХИСТ ПРОТИ НАЙШИРШОГО СПЕКТРА ПАРАЗИТІВ ГОТОВИЙ!</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <iframe width="270" height="152" src="https://www.youtube.com/embed/1zB4Z-qKEm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-6">
+                                    <iframe width="270" height="152" src="https://www.youtube.com/embed/1zB4Z-qKEm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </div>
+    <script src="wow-animation/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
