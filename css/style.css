@@ -110,11 +110,11 @@ font-weight: lighter;
 	text-align: center;
 }
 .section__recommend_content__3{
-margin-top: 60px;
+margin-top: 40px;
 text-align: center;
 }
 .section__recommend_content__4{
-margin-top: 60px;
+margin-top: 40px;
 text-align: center;
 }
 .section__recommend_content_text{
@@ -123,6 +123,26 @@ text-align: center;
 	font-size: 20px;
 	font-weight: bolder;
 
+}
+.section__recommend__table{
+	text-align: center;
+
+}
+.recommend__table__content{
+	background-color: #F2E2DB;
+
+}
+
+.section__recommend__table p{
+	font-size: 20px;
+	font-weight: bolder;
+	color: #00469D;
+	padding: 10% 20%;
+	text-align: center;
+}
+.recommend__table__notice p{
+	text-align: center;
+	color: #9F9E9E;
 }
 /*SECTION-RECOMMEND-END*/
 
