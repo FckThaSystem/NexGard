@@ -391,8 +391,11 @@ font-weight: bold;
 	padding-top: 3%;
 	padding-bottom: 4%;
 }
-.footer__facebook img{
-	justify-content: right;
+.footer__facebook{
+	text-align: right;
+}
+.footer__instagram{
+	text-align: left;
 }
 .footer__facebook :hover{
 	width: 55%;
