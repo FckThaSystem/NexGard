@@ -1,5 +1,6 @@
 body{
 	font-family: 'Lato', sans-serif;
+	padding: 0 15px;
 }
 /*SECTION-HEADER*/
 .section__header{
@@ -375,6 +376,31 @@ font-weight: bold;
 	margin-top: 4%;
 }
 /*SECTION-WRITE-US-END*/
+
+/*FOOTER*/
+.footer__nexgard{
+	margin-top: 40px;
+}
+.footer__nexgard{
+	background-color: #00469D;
+}
+.footer__social__nexgard{
+	background-color: #00469D;
+}
+.footer__social__links{
+	padding-top: 3%;
+	padding-bottom: 4%;
+}
+.footer__facebook img{
+	justify-content: right;
+}
+.footer__facebook :hover{
+	width: 55%;
+}
+.footer__instagram :hover{
+	width: 55%;
+}
+/*FOOTER-END*/
 
 @media screen and (max-width: 960px){
 .section__header__logo_1{
