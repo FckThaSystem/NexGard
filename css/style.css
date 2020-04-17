@@ -20,7 +20,6 @@ margin-top:27px;
 
 }
 .section__header__button{
-width:360px;
 line-height: 75px;
 background-color:#00B7EF;
 border-radius:15px;
@@ -31,6 +30,7 @@ margin-top:27px;
 	font-size: 40px;
 	color:#fff;
 	justify-content: center;
+	padding: 0.9% 30%;
 }
 .section__header__button p {
 	font-weight: lighter;
@@ -177,6 +177,11 @@ margin-top:15px;
 	color: #9F9E9E;
 	margin-bottom: 5px;
 }
+.section__effectivity__text_p span{
+	color: #00B7EF;
+	font-size: 20px;
+	font-weight: bolder;
+		}
 /*SECTION-EFFECTIVITY-END*/
 
 /*SECTION-NEVER-TITLE*/
@@ -404,10 +409,122 @@ font-weight: bold;
 	width: 55%;
 }
 /*FOOTER-END*/
+@media screen and (max-width: 1199px){
+	.section__header__button p{
+		font-size: 30px;
+		padding: 3% 20%;
+	}
+	.section__header__button{
+		line-height: 50px;
+		margin-top: 32px;
+	}
+	.section__recommend_title h2{
+		font-size: 33px;
+	}
+	.section__recommend_content_pack{
+		margin-top: 40px;
+	}
+	.section__recommend_content_pack img {
+		max-width: 450px;
+	}
 
+	.section__recommend_title img{
+		max-width: 50px;
+	}
+	.section__recommend_content__1 img{
+	max-width: 80px;
+	}
+	.section__recommend_content__2 img{
+	max-width: 100px;
+	}
+	.section__recommend_content__3 img{
+	max-width: 80px;
+	}
+	.section__recommend_content__4 img{
+	max-width: 120px;
+	}
+	.section__recommend_content_text p{
+		font-size: 15px;
+	}
+	.recommend__table__content p{
+		font-size: 15px ;
+	}
+	.recommend__table__notice p{
+		font-size: 15px;
+	}
+	.section__recommend__table{
+		margin-top: -40px;
+	}
+	.section__effectivity__title h2{
+		font-size: 35px;
+	}
+	.section__effectivity__text_h3 h3{
+		font-size: 16px;
+	}
+
+	.section__effectivity__text_p span{
+	color: #00B7EF;
+	font-size: 15px;
+	}
+	.section__effectivity__text_p p{
+		font-size: 14px;
+	}
+	.section__effectivity__text_1 p{
+		font-size: 12px;
+	}
+	.section__effectivity__dog img{
+		max-width: 310px;
+	}
+	.section__title__never__h2 h2{
+		font-size: 33px;
+	}
+	.section__media__content__title p{
+		font-size: 30px;
+	}
+	.section__media__content__text p{
+		font-size: 23px;
+	}
+	.section__media__content__video iframe{
+		max-width: 230px;
+		max-height: 119px;
+	}
+	.section__media__content img{
+	margin-top: 20px;
+	}
+	.section__title__time__h2 h2{
+		font-size: 33px;
+	}
+	.where_to_buy_button_1 p{
+		font-size: 25px;
+	}
+	.where_to_buy_button_2 p{
+		font-size: 25px;
+	}
+	.where_to_buy__text p{
+		font-size: 28px;
+	}
+	.section__write__us__title h2{
+		font-size: 33px;
+	}
+	.section__write__us__title p{
+		font-size: 33px;
+	}
+	.write__us__input__name input{
+		font-size: 20px;
+	}
+	.write__us__input__phone input{
+		font-size: 20px;
+	}
+	.write__us__input__textarea textarea{
+		font-size: 20px;
+	}
+	.where_to_buy_button_3 p{
+		font-size: 25px;
+	}
+}
 @media screen and (max-width: 960px){
 .section__header__logo_1{
-	width: 220px;
+	width: 70%;
 	height: auto;
 }
 .section__header{
