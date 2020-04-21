@@ -18,6 +18,9 @@ body{
 margin-top:27px;
 
 }
+.section__header__busket{
+	display: none;
+}
 .section__header__button{
 line-height: 75px;
 background-color:#00B7EF;
@@ -32,7 +35,7 @@ margin-top:27px;
 	font-size: 40px;
 	color:#fff;
 	justify-content: center;
-	padding: 0.9% 30%;
+	padding: 0 60px;
 }
 .section__header__button p {
 	font-weight: lighter;
@@ -87,6 +90,10 @@ font-weight: lighter;
 .section__recommend{
 margin-top: 30px;
 }
+.section__recommend_content_pack img{
+	max-width: 540px ;
+	width: 100%;
+}
 .section__recommend_title img{
 	max-width: 64px;
 }
@@ -134,6 +141,9 @@ text-align: center;
 	color: #00469D;
 	padding: 10% 20%;
 	text-align: center;
+}
+.recommend__table__content__mobile{
+	display: none;
 }
 .recommend__table__notice p{
 	text-align: center;
@@ -703,7 +713,10 @@ font-weight: bold;
 }
 .section__header__button p{
 	font-size: 22px;
-	padding: 2% 20%;
+	padding: 5px 30px;
+}
+.section__header__button_text{
+	text-align: right;
 }
 .section__header__button{
 	line-height: 44px;
@@ -881,9 +894,186 @@ font-weight: bold;
 	width: 23px;
 }
 }
-@media screen and (max-width: 540px){
+@media screen and (max-width: 575px){
+	.section__header{
+		height: 100px;
+	}
+.section__header img{
+	max-width: 130px;
+	margin-top: 30px;
+}
+.section__header__button p{
+	font-size: 18px;
+	padding: 20px 50px;
+}
+.section__header__button{
+	line-height: 44px;
+	margin-top: 30px;
+}
+.section__header__button{
+	display: none;
+}
+.section__header__busket{
+	display: inline-block;
+	margin-top:-5px;
+}
+.section__header__busket img{
+	max-width: 50px;
+	text-align: center;
+}
+.section__protect_box p{
+	font-size: 25px;
+	margin-top: 45px;
+	z-index: 1000;
+}
+.section__protect_box img{
+	max-width: 200px;
+	height: 250px;
+}
+.section__packs{
+	display: none;
+}
+.section__recommend_title img{
+	display: none;
+}
+.section__recommend_content_pack{
+	margin-top: -200px;
+}
+.section__recommend_content_pack img{
+	max-width: 250px;
+}
+.section__recommend_title h2{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.section__recommend_content_text p{
+	font-size: 11px;
+	
+}
+.section__recommend_content__1{
+	margin-top: -10px;
+}
+.section__recommend_content__2{
+	margin-top: -10px;
+}
+.section__recommend__content{
+	display: none;
+}
+.recommend__table__content__mobile{
+	display: block;
+	margin-top: 10px;
+}
+.recommend__table__content__mobile p{
+	font-size: 15px;
+	padding: 0;
+	margin-top: 5px;
+}
+.recommend__content__dog{
+display:flex;
+justify-content: center;
+}
+}
+@media screen and (max-width: 547px){
+	.section__recommend_content_pack{
+		margin-top: -190px;
+	}
+	.section__recommend_title h2{
+		font-size: 18px;
+	}
+	.section__protect_box p{
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 445px){
+	.section__recommend_content_pack{
+		margin-top: -170px;
+	}
+	.section__recommend_content_pack img{
+		max-width: 230px;
+	}
+	.section__recommend_title h2{
+		font-size: 17px;
+		margin-top: -10px;
+	}
+	.section__protect_box p{
+		font-size: 23px;
+	}
 
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 423px){
+	.section__recommend_content_pack{
+		margin-top: -200px;
+	}
+	.section__protect_box p{
+		font-size: 20px;
+		margin-top: 40px;
+		z-index: 1000;
+}
+.section__recommend_content__1{
+	margin-top: 10px;
+}
+.section__recommend_content__2{
+	margin-top: 10px;
+}
+.section__recommend_content_text p{
+	font-size: 10px;
+	
+}
+.recommend__content__dog_1 img{
+	max-width: 50px;
+}
+.recommend__table__content__mobile p{
+	font-size: 14px;
+}
 
+
+}
+@media screen and (max-width: 370px){
+	.section__protect_box p{
+		font-size: 18px;
+		margin-top: 40px;
+		z-index: 1000;
+}
+.section__protect_box img{
+	max-width: 180px;
+	height: 200px;
+}
+.section__recommend_content_pack{
+	margin-top: -180px;
+}
+.section__recommend_title h2{
+	font-size: 15px;
+}
+.section__recommend_content_pack img{
+	width: 150px;
+}
+.section__recommend_content_text p{
+	font-size: 9px;
+	
+}
+
+}
+@media screen and (max-width: 338px){
+	.section__protect_box p{
+		font-size: 17px;
+		margin-top: 35px;
+		z-index: 1000;
+}
+.section__protect_box img{
+	max-width: 180px;
+	height: 200px;
+}
+.section__recommend_title h2{
+	font-size: 14px;
+	margin-top: -20px;
+}
+.section__recommend_content_pack{
+	margin-top: -150px;
+}
+.recommend__content__dog_1 img{
+	max-width: 40px;
+}
+.recommend__table__content__mobile p{
+	font-size: 13px;
+}
 }
