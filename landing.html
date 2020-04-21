@@ -327,7 +327,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4  col-4">
                         <div class="where_to_buy__store">
                             <a href="#">
-                                <img class="img-fluid" src="img/Zootovary.png" alt="Zootovary.com">
+                                <img class="img-fluid" src="img/Zoocomplex.png" alt="Zootovary.com">
                             </a>
                         </div>
                     </div>
@@ -418,10 +418,24 @@
                     <div class="write__us__input__send">
                         <a href="#">
                             <div class="where_to_buy_button_3">
-                            <p>НАДІСЛАТИ</p>
+                                <p>НАДІСЛАТИ</p>
                             </div>
                         </a>
                     </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Ваше письмо успешно отправлено!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
             </div>
         </div>
     </section>
@@ -457,8 +471,16 @@
     </section>
     </div>
     <script src="wow-animation/wow.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
 <script>
     new WOW().init();
 </script>
+<script>
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+  </script>
 </body>
 </html>
