@@ -347,9 +347,19 @@ font-weight: bold;
 	padding: 25px 20px;
 }
 .write__us__input__phone{
-	margin-top: 2%;
+	margin-top: 15px;
 }
+.write__us__input__email{
+	margin-top: 15px;
+}
+
 .write__us__input__phone input{
+	border-style: none;
+	border-radius:15px;
+	font-size: 25px;
+	padding: 25px 20px;
+}
+.write__us__input__email input{
 	border-style: none;
 	border-radius:15px;
 	font-size: 25px;
@@ -363,7 +373,7 @@ font-weight: bold;
 	resize: none;
 }
 .write__us__input__textarea{
-	margin-top: 2%;
+	margin-top: 15px;
 }
 .where_to_buy_button_3{
 	text-decoration: none;
@@ -532,6 +542,9 @@ font-weight: bold;
 	.write__us__input__phone input{
 		font-size: 20px;
 	}
+	.write__us__input__email input{
+		font-size: 20px;
+	}
 	.write__us__input__textarea textarea{
 		font-size: 20px;
 	}
@@ -674,6 +687,9 @@ font-weight: bold;
 		font-size: 18px;
 	}
 	.write__us__input__phone input{
+		font-size: 18px;
+	}
+	.write__us__input__email input{
 		font-size: 18px;
 	}
 	.write__us__input__textarea textarea{
@@ -860,6 +876,9 @@ font-weight: bold;
 .write__us__input__phone input{
 	font-size: 16px;
 }
+.write__us__input__email input{
+	font-size: 16px;
+}
 .write__us__input__textarea textarea{
 	font-size: 16px;
 }
@@ -972,8 +991,51 @@ font-weight: bold;
 display:flex;
 justify-content: center;
 }
+.section__effectivity__title h2{
+	font-size: 17px;
 }
-@media screen and (max-width: 547px){
+.section__effectivity__scheme{
+	text-align: center;
+}
+.section__effectivity__scheme img{
+}
+.section__media__content__box p{
+	font-size: auto;
+}
+.section__media__content__video iframe{
+	margin: 10px 0;
+	max-width: 400px;
+	max-height: 240px;
+}
+.section__title__time__h2 h2{
+	font-size: 17px;
+}
+.where_to_buy__buttons a{
+	margin-top: 20px;
+}
+.where_to_buy_button_1 p{
+	font-size: 20px;
+	padding: 0 25px;
+}
+.where_to_buy_button_2 p{
+	font-size: 20px;
+	padding: 0 25px;
+}
+.write__us__input__name input{
+	padding: 15px 10px;
+}
+
+.write__us__input__phone input{
+	padding: 15px 10px;
+}
+.write__us__input__email input{
+	padding: 15px 10px;
+}
+.write__us__input__textarea textarea{
+	padding: 15px 10px;
+}
+}
+@media screen and (max-width: 548px){
 	.section__recommend_content_pack{
 		margin-top: -190px;
 	}
@@ -982,6 +1044,9 @@ justify-content: center;
 	}
 	.section__protect_box p{
 		font-size: 24px;
+	}
+	.section__title__never__h2 h2{
+		font-size: 16px;
 	}
 }
 @media screen and (max-width: 445px){
@@ -1002,12 +1067,16 @@ justify-content: center;
 }
 @media screen and (max-width: 423px){
 	.section__recommend_content_pack{
-		margin-top: -200px;
+		margin-top: -175px;
 	}
 	.section__protect_box p{
 		font-size: 20px;
 		margin-top: 40px;
 		z-index: 1000;
+}
+.section__recommend_title h2{
+	font-size: 16px;
+	margin-top: -10px;
 }
 .section__recommend_content__1{
 	margin-top: 10px;
@@ -1023,6 +1092,18 @@ justify-content: center;
 	max-width: 50px;
 }
 .recommend__table__content__mobile p{
+	font-size: 14px;
+}
+.write__us__input__name input{
+	font-size: 14px;
+}
+.write__us__input__phone input{
+	font-size: 14px;
+}
+.write__us__input__email input{
+	font-size: 14px;
+}
+.write__us__input__textarea textarea{
 	font-size: 14px;
 }
 
@@ -1051,6 +1132,9 @@ justify-content: center;
 	font-size: 9px;
 	
 }
+.section__title__time__h2 h2{
+	font-size: 16px;
+}
 
 }
 @media screen and (max-width: 338px){
@@ -1075,5 +1159,8 @@ justify-content: center;
 }
 .recommend__table__content__mobile p{
 	font-size: 13px;
+}
+.section__title__time__h2 h2{
+	font-size: 15px;
 }
 }
