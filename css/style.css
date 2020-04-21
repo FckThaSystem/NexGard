@@ -1137,7 +1137,7 @@ justify-content: center;
 }
 
 }
-@media screen and (max-width: 338px){
+@media screen and (max-width: 340px){
 	.section__protect_box p{
 		font-size: 17px;
 		margin-top: 35px;
@@ -1152,7 +1152,7 @@ justify-content: center;
 	margin-top: -20px;
 }
 .section__recommend_content_pack{
-	margin-top: -150px;
+	margin-top: -160px;
 }
 .recommend__content__dog_1 img{
 	max-width: 40px;
